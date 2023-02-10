@@ -6,21 +6,25 @@
 }
 body{
     padding: 50px;
+
 }
 header{
     min-height: 10vh;
-    
+    width: 100%;
     background-color: yellow;
     display: inline-block;
-    padding: 1rem;
+    
 }
 h1{
     display: inline-block;
     padding: 2rem;
     font-size: 2rem;
+    
 }
 header>nav{
     display:inline-block;
+    padding: 2rem;
+    
 }
 
 nav>a{
@@ -37,13 +41,33 @@ a:active{
 
 main{
     min-height: 80vh;
+    
 }
-
+.subtitle{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
 #logo{
-    width: 15%;
+    width: 150px;
 }
 
+
+#banner-image{
+    width: 100%;
+}
 
 .imagen{
-    width: 300px;
+    width: 200px;
+    height: 200px;
+}
+.container{
+    display: inline;
+    
+}
+.content{
+    display: inline-block;
+    padding: 15px;
+    
+    
 }
