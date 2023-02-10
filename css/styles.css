@@ -13,17 +13,24 @@ header{
     width: 100%;
     background-color: yellow;
     display: inline-block;
+    position:relative;
+    
     
 }
 h1{
     display: inline-block;
     padding: 2rem;
     font-size: 2rem;
+    position: absolute;
+    
     
 }
 header>nav{
-    display:inline-block;
+    display:inline;
     padding: 2rem;
+    position: absolute;
+    right: 15px;
+    top: 35px;
     
 }
 
@@ -32,13 +39,15 @@ nav>a{
     background-color: cyan;
     margin: 10px;
     text-decoration: none;
+    border: 2px solid black;
+    border-radius: 10%;
 }
 
 
 /*contenido principal*/
 
 main{
-    min-height: 80vh;
+    min-height: 90vh;
     
 }
 .subtitle{
@@ -62,6 +71,7 @@ main{
 }
 .container{
     display: inline;
+    position:relative;
     
 }
 .content{
@@ -71,6 +81,17 @@ main{
     
 }
 .content2{
-    width: 60%;
+    width: 450px;
+    position:absolute;
     
+}
+h3{
+    padding: 5px;
+}
+
+.content p{
+    margin-bottom: 15px;
+}
+#contacto{
+    bottom: 275px;
 }
