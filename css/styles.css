@@ -2,96 +2,57 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
+    
 }
 body{
-    padding: 50px;
+   
+   padding: 2rem;
+   font-family: sans-serif;
+   width: 100vw;
+   height: 100vh;
+    
 
 }
+
 header{
-    min-height: 10vh;
-    width: 100%;
-    background-color: yellow;
-    display: inline-block;
-    position:relative;
-    
+    height: 40vh;
+    width: 90vw;
+    position: relative;
+    margin-top: 50px;
+    padding: 1rem;
+    background-image: url(../assets/task2/design1_image1.jpg);
+    background-size: cover;
+    background-position: 0 30%;
     
 }
+
 h1{
     display: inline-block;
-    padding: 2rem;
-    font-size: 2rem;
     position: absolute;
-    
-    
+    top: -40px;
+    font-size: 35px;
 }
-header>nav{
-    display:inline;
-    padding: 2rem;
-    position: absolute;
-    right: 15px;
-    top: 35px;
-    
+
+nav{
+    display: inline-block;
+    position: absolute; 
+    right: 65px;
+    top: -10px;
 }
 
 nav>a{
-    padding: 10px;
-    background-color: cyan;
-    margin: 10px;
+    
+    padding: 1rem;
     text-decoration: none;
-    border: 2px solid black;
-    border-radius: 10%;
+    margin: 10px;
+    background-color: cyan;
+    border: 2px, solid, black;
+    border-radius: 25%;
+
 }
 
-
-/*contenido principal*/
-
-main{
-    min-height: 90vh;
-    
-}
-.subtitle{
-    background-color: black;
-    color: white;
-    text-align: center;
-    
-}
-#logo{
-    width: 150px;
-}
-
-
-#banner-image{
-    width: 100%;
-}
-
-.imagen{
-    width: 200px;
-    height: 200px;
-}
-.container{
-    display: inline;
-    position:relative;
-    
-}
-.content{
-    display: inline-block;
-    padding: 15px;
-    
-    
-}
-.content2{
-    width: 450px;
-    position:absolute;
-    
-}
-h3{
-    padding: 5px;
-}
-
-.content p{
-    margin-bottom: 15px;
-}
-#contacto{
-    bottom: 275px;
+#banner{
+    display: block;
+    width: 85%;
+    height: 100%;
 }
