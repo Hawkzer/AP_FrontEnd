@@ -41,7 +41,7 @@ nav>a{
     margin: 10px;
     background-color: cyan;
     border: 2px solid black;
-    border-radius: 25%;
+    border-radius: 18%;
 
 }
 
@@ -72,7 +72,7 @@ nav>a{
 }
 
 .content1{
-    margin-left: 25%;
+    margin-left: 20%;
     margin-bottom: 1rem;
 }
 
