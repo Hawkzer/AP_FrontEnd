@@ -75,7 +75,6 @@ a[href="#"]{
 .image{
     width: 300px;
     margin: 10px;
-    
 }
 /*rules*/
 .rules{
@@ -118,10 +117,42 @@ dd>ul>li{
     list-style-type: circle;
 }
 /*game info*/
-
-
-
-
+table{
+    background-color: cyan;
+    margin: 2rem;
+    border: 2px solid cyan;
+}
+.game_content{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    align-items: center;
+    justify-content: center;
+}
+.game_content>h3, .game_content>u{
+    width: 100%;
+}
+th{
+    background-color: greenyellow;
+}
+td{
+    background-color: yellow;
+}
+td,th{
+    padding: 1rem;
+    text-align: center;
+}
+.game_details{
+    width: 100%;
+    margin: 1rem;
+    display: inline-block
+}
+.game_details>p{
+    padding: .5rem;
+}
+.game_details .inline{
+    display: inline-block;
+}
 /*footer*/
 footer{
     background-color: black;
