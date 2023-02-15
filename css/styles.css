@@ -129,7 +129,7 @@ table{
     align-items: center;
     justify-content: center;
 }
-.game_content>h3, .game_content>u{
+.game_content>h3, .game_content>p{
     width: 100%;
 }
 th{
