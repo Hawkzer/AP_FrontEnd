@@ -7,9 +7,7 @@
 body{
     background-color: rgb(160, 155, 155);
 }
-
 /*header*/
-
 header{
     display: flex;
     /*background-color: rgb(29, 136, 97);*/
@@ -43,9 +41,7 @@ a[href="#"]{
     background-color: rgb(29, 136, 97);
     color: white;
 }
-
 /*Main*/
-
 .subtitle{
     background-color: green;
     text-align: center;
@@ -57,7 +53,6 @@ a[href="#"]{
     object-fit: cover;
     object-position: 0% 30%;
 }
-
 .container{
     display: flex;
     flex-direction: column;
@@ -82,6 +77,52 @@ a[href="#"]{
     margin: 10px;
     
 }
+/*rules*/
+.rules{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+.rules_intro{
+    text-align: center;
+}
+.rules_content{
+    width: 60%;
+    padding: 2.5rem;
+    font-size: 1.5rem;
+    border: 2px solid black;
+    border-radius: 5%;
+}
+.rules_content p{
+    margin-bottom: 2rem;
+}
+dt{
+    font-weight: bold;
+}
+dl>dd{
+    margin: 1rem 0 1rem 1.5rem;
+}
+div>h3, div>ol>li{
+    margin: 2rem 0;
+}
+li>ol>li, dd>ul>li{
+    margin-left: 2.5rem;
+}
+li>ol>li{
+    margin-top: 1rem;
+    list-style-type: lower-alpha;
+}
+dd>ul>li{
+    list-style-type: circle;
+}
+/*game info*/
+
+
+
+
+/*footer*/
 footer{
     background-color: black;
     color:rgb(255, 225, 0);
