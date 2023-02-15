@@ -10,7 +10,6 @@ body{
 /*header*/
 header{
     display: flex;
-    /*background-color: rgb(29, 136, 97);*/
     background-color: black;
     min-height: 10vh;
     align-items: end;
