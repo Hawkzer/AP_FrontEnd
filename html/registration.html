@@ -26,13 +26,14 @@
         <section class="cuestionary">
             <h2 class="subtitle">Registration Form</h2>
             <form action="../show_data.html" method="get">
+                <h3>Registration Form</h3>
                 <fieldset>
-                    <h3>Personal Data</h3>
+                    <h5>Personal Data</h5>
                     <label for="first_name">First Name:<input type="text" name="first_name" id="first_name"></label>
                     <label for="last_name">Last Name:<input type="text" name="last_name" id="last_name"></label>
                     <label for="adress">Adress:<input type="text" name="adress" id="adress"></label>
                     <label for="city">City:<input type="text" name="city" id="city"></label>
-                    <label for="zip_code">Zip Code:<input type="text" name="zip_code" id="zip_code"></label>
+                    <label for="zip_code">Zip Code:<input type="text" name="zip_code" id="zip_code" minlength="5" maxlength="5"></label>
                     <label for="birth_date">Date of Birth:<input type="date" name="birth_date" id="birth_date"> </label>
                     <p>Gender:
                         <label for="female"><input type="radio" name="gender" value="female" id="female">Female</label>
@@ -61,27 +62,27 @@
                     <section>
                         <h5>Schools Locations</h5>
                             <article>
-                                <h6>AJ Katzenmaier</h6>
+                                <h6 class="map_location">AJ Katzenmaier</h6>
                                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2969.657018153235!2d-87.63126344926108!3d41.90023277190634!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fd34e07f69da7%3A0x15e198c063fc787c!2sAJ%20Katzenmaier%20Elementary!5e0!3m2!1ses-419!2sar!4v1676587583018!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                             </article>
                             <article>
-                                <h6>Greenbay</h6>
+                                <h6 class="map_location">Greenbay</h6>
                                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2969.0227959969993!2d-87.64002754926065!3d41.913868671052505!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fd3407260c45b%3A0xb351205fae50c6f3!2sGreenbay%20Elementary!5e0!3m2!1ses-419!2sar!4v1676587983623!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                             </article>
                             <article>
-                                <h6>Howard A Yeager</h6>
+                                <h6 class="map_location">Howard A Yeager</h6>
                                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2950.269876678587!2d-87.85607514924813!3d42.315442245809095!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880feccac26b07c5%3A0x8b51fa5d6efe771a!2sHoward%20A.%20Yeager%20School%20(PREK-K)!5e0!3m2!1ses-419!2sar!4v1676588021067!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                             </article>
                             <article>
-                                <h6>Marjorie P Heart</h6>
+                                <h6 class="map_location">Marjorie P Heart</h6>
                                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2968.2896536483636!2d-87.64816674926017!3d41.92962687006549!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fd30f2637f9d7%3A0xdbff5d5dfcfcfa35!2sMarjorie%20P%20Hart%20Elementary!5e0!3m2!1ses-419!2sar!4v1676588050763!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                             </article>
                             <article>
-                                <h6>North Elementary</h6>
+                                <h6 class="map_location">North Elementary</h6>
                                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2969.3353630187426!2d-87.64831694926087!3d41.90714887147332!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fd33af14860a5%3A0x5736e62f19086c62!2sNorth%20Elementary!5e0!3m2!1ses-419!2sar!4v1676588526947!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                             </article>
                             <article>
-                                <h6>South Elementary</h6>
+                                <h6 class="map_location">South Elementary</h6>
                                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2971.2103673786846!2d-87.63090244926211!3d41.86682017399757!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880e2c9a9e2172c9%3A0xf8e1705680f94707!2sSouth%20Loop%20Elementary%20School!5e0!3m2!1ses-419!2sar!4v1676588593666!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                             </article>
                         </section>
@@ -89,10 +90,10 @@
                 <fieldset class="check">
                     <h5>What position(s) do you play normally? (check all that apply)</h5>
                     
-                    <label for="foward"><input type="checkbox" name="position" id="foward">Foward</label>
-                    <label for="midfield"><input type="checkbox" name="position" id="midfield">Midfield</label>
-                    <label for="defense"><input type="checkbox" name="position" id="defense">Defense</label>
-                    <label for="goalkeeper"><input type="checkbox" name="position" id="goalkeeper">Goalkeeper</label>
+                    <label for="foward"><input type="checkbox" name="position" id="foward" value="foward">Foward</label>
+                    <label for="midfield"><input type="checkbox" name="position" id="midfield" value="midfield">Midfield</label>
+                    <label for="defense"><input type="checkbox" name="position" id="defense" value="defense">Defense</label>
+                    <label for="goalkeeper"><input type="checkbox" name="position" id="goalkeeper" value="goalkeeper">Goalkeeper</label>
                 </fieldset>
                 <fieldset class="check">
                     <h5>Uniform size:</h5>
@@ -100,7 +101,7 @@
                     <label><input type="radio" name="uniform" id="medium" value="medium">Medium</label>
                     <label><input type="radio" name="uniform" id="youth_medium" value="youth_medium">Youth Medium</label>
                     <label><input type="radio" name="uniform" id="large" value="large">Large</label>
-                    <label><input type="radio" name="uniform" id="youth_large" value="youth_large" value="youth_large">Youth Large</label>
+                    <label><input type="radio" name="uniform" id="youth_large" value="youth_large">Youth Large</label>
                     <label><input type="radio" name="uniform" id="extra_large" value="extra_large">Extra Large</label>
                     <label><input type="radio" name="uniform" id="small" value="small">Small</label>
                 </fieldset>
@@ -117,7 +118,7 @@
                     <label>Parent/Guardian signature:<input type="text" required></label>
                     <label>Date:<input type="date" required></label>
                 </fieldset>
-                <input type="submit">
+                <input type="submit" value="Enviar">
             </form>
         </section>
         <section class="gallery">
