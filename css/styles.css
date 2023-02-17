@@ -189,6 +189,9 @@ fieldset{
 input{
     margin: 0 .5rem;
 }
+input[type="text"]{
+    width: 100%;
+}
 input[type="text"], input[type="date"]{
     width:400px;
     font-size: 1.5rem;
@@ -250,4 +253,7 @@ form>fieldset>section>article{
 }
 .map_location{
     margin-bottom: 1rem;
+}
+label{
+    font-family: 'Tahoma';
 }
